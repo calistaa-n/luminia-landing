@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dGreen: #024D22;
+  --color-dGray: #1E1E1E;
+  --color-goldYellow: #FAAF35;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  @apply text-dGray
+}
+
+h1,h2,h3 {
+  font-family: 'Crimson Text', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
