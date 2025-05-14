@@ -6,6 +6,7 @@ import Products from "./components/products";
 import Footer from "./components/footer";
 import Testimonies from "./components/testimonies";
 import Problems from './components/problems';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Products />
     <Testimonies />
     <Footer />
+    <Analytics />
   </>
   )
 }
